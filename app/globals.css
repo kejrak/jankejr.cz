@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.light {
+  --background: #f2f2f2;
+  --foreground: #08070b;
+  --link-blue: #0000FF;
+
+}
+
+.dark {
+  --background: #08070b;
+  --foreground: #f2f2f2;
+  --link-blue: #7EC8E3;
+
+}
+
+@font-face {
+  font-family: "NeuzeitGrotesk";
+  src: url("../public/static/font/NeuzeitGrotesk-Bold.woff");
+}
+
+@font-face {
+  font-family: "BiotifRegular";
+  src: url("../public/static/font/Biotif-Regular.woff");
+}
+
+@font-face {
+  font-family: "BiotifBook";
+  src: url("../public/static/font/Biotif-Book.woff");
+}
+
+@font-face {
+  font-family: "BiotifBold";
+  src: url("../public/static/font/Biotif-Bold.woff");
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "BiotifRegular", sans-serif;
+}
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
