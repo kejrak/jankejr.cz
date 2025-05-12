@@ -35,7 +35,7 @@ export default function Home() {
       <Header theme={theme} toggleTheme={toggleTheme} />
 
       {/* Main Content */}
-      <main className="ml-auto mr-auto flex px-[50px]">
+      <main className="ml-auto mr-auto flex">
         <div className="py-5 relative">
           <div className="text-left px-5">
             <h1 className="text-6xl font-neuzeit-bold font-bold">Jan Kejř</h1>
