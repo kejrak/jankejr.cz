@@ -16,8 +16,7 @@ export default function Header({ theme, toggleTheme }: { theme: string, toggleTh
         onToggle={handleToggle}
         duration={750}
         forceMotion={false}
-        className="text-2xl"
-      />
+        className="text-2xl" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
     </header>
   );
 }
