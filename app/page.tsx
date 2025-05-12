@@ -39,13 +39,11 @@ export default function Home() {
         <div className="py-5 relative">
           <div className="text-left px-5">
             <h1 className="text-6xl font-neuzeit-bold font-bold">Jan Kejř</h1>
-            <div className="text-md mt-5 space-y-3 leading-8">
-              <span className="font-biotif-regular font-medium ">Co-Founder at <a className="underline" href="https://advantup.cz" target="_blank">Advantup </a></span>
-              <br />
+            <div className="flex text-md mt-5 leading-8 flex-col">
+              <span className="font-biotif-regular font-medium ">Co-Founder at <a className="underline" href="https://advantup.cz" target="_blank">Advantup</a></span>
               <span className="font-biotif-book opacity-50">
-                DevOps and Designer guy happy to ease the pain
+                Entrepreneur. Tech Guy. Designer.
               </span>
-              <br />
             </div>
           </div>
         </div>
